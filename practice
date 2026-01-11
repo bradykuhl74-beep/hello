@@ -1,7 +1,12 @@
 
 
-var mess = prompt("type hello")
+var mess = prompt("Type hello");
 
-console.log("hello world")
+if (mess.toLowerCase() === "hello") {
+  console.log("Hello to you too!");
+} else {
+  console.log("You didn't type hello!");
+}
+
 
 
